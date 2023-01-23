@@ -1,6 +1,22 @@
+# Lab Docker
 
+O Docker é uma plataforma open source que facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação ou ambiente dentro de um container, se tornando portátil para qualquer outro host que contenha o Docker instalado.
 
-# Instalando o Docker no Linux
+O que iremos ver nesse Lab:
+* Instalação e configuração do Docker README;
+* Entender os Containers e suas camadas;
+* Conhecer os principais comandos Docker;
+* O que é um container;
+* Quais são as características de um container;
+* Como ele vai funcionar;
+* Como interagir os containers;
+* Como criar nossas imagens;
+* Usar imagens de terceiros;
+* Persistência de dados através de volumes;
+* Tipos de redes do docker;
+* Comunicação entres containers;
+* Coordenação de containers com o docker;
+
 
 # Preparando o ambiente
 Instalação do Docker Community Edition, Docker CLI, Docker Compose e Containerd que será responsável pela parte do funcionamento dos containers dentro do nosso sistema host. 
@@ -82,7 +98,44 @@ Para não precisar colocar o sudo antes de todo comando Docker, vamos criarmos u
 PS.: É necessário reiniciar a máquina após esse comando.
 
 
+# Acesse a WiKi para ver como fazer esse ```Lab Docker```
+
+Na [Wiki Projeto] tem toda a documentação, onde é explicamos com detalhes todos os passos do ```Lab Docker```.
+
+
+# Contribuindo
+As contribuições são o que torna a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são muito apreciadas.
+
+Se você tiver uma sugestão para melhorar isso, bifurque o repositório e crie uma pull request.
+
+1. Fork o Projeto
+2. Crie o seu Branch Feature (git checkout -b feature/amazing-feature)
+3. Commit sua alterações (git commit -m 'Add some amazing-feature')
+4. Push para o Branch (git push origin feature/amazing-feature)
+5. Abra um Pull Request
+
+
+---
+
+Referências:
+* [Wiki Projeto]
+* [Docker]
+* [Docker Exemplos Images]
+* [Docker Hub]
+* [Cgroups]
+* [Instalação Docker Ubuntu]
+
+
+:rocket::rocket::rocket:
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 [Wiki Projeto]: ../../wiki
+[Cgroups]: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/6/html/resource_management_guide/ch01
+[Docker Hub]: https://hub.docker.com 
+[Docker Exemplos Images]:https://docs.docker.com/engine/reference/commandline/images/   
+[Docker]: https://docs.docker.com/get-started/overview/
 [Instalação Docker Ubuntu]: https://docs.docker.com/engine/install/ubuntu/
+
+
 
